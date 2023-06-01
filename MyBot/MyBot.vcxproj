@@ -228,6 +228,7 @@
     <ClInclude Include="dependencies\include\dpp-10.0\dpp\wsclient.h" />
     <ClInclude Include="MyBot.h" />
     <ClInclude Include="things.hpp" />
+    <ClInclude Include="token.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="snowflake.txt" />

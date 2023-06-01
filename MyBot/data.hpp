@@ -6,16 +6,12 @@
 #include <iostream>
 #include <set>
 
-
 // ******************************************************************************************************
 const dpp::snowflake M_MESSAGE_ID = dpp::snowflake(1113501811664506970);
 const dpp::snowflake M_CHANNEL_ID = dpp::snowflake(975842789420048445);
-const std::string M_BOT_TOKEN = "MTExMjg2NDc0NDY0NzQyNjA1OA.Gno6G_.I7rIQyJE5Bj6NybMLHJVbJgN4yNpEy3X72FNA4";
 const std::string M_ADDON_DUMP = "C:\\Program Files (x86)\\World of Warcraft\\_classic_\\WTF\\Account\\ANGELITEWEAPON\\Pyrewood Village\\Chronkz\\SavedVariables\\ChronkzBankAddon.lua";
 // ******************************************************************************************************
 
-
-// TODO - Make this not disgusting.
 // Returns sanitized bank info.
 auto bankCleanse(std::string dump) {
 
